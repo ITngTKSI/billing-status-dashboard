@@ -4,7 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Billing Status Tracker</title>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js" defer></script>
 </head>
 <body class="bg-gray-50 p-6">
   <div class="max-w-7xl mx-auto">
@@ -23,6 +27,12 @@
         </thead>
         <tbody id="subscriptions-table" class="divide-y divide-gray-200"></tbody>
       </table>
+    </div>
+
+    <div class="mt-8 text-center">
+      <button id="cms-login" class="bg-[#D54944] text-white px-4 py-2 rounded hover:bg-red-700 transition">
+        🔐 Login to CMS
+      </button>
     </div>
   </div>
 
@@ -58,6 +68,16 @@
         console.error("Failed to load subscriptions:", error);
         document.getElementById("subscriptions-table").innerHTML = '<tr><td class="px-4 py-2 text-red-500" colspan="6">Error loading data.</td></tr>';
       });
+  </script>
+
+  <script>
+    document.getElementById('cms-login').addEventListener('click', () => {
+      if (window.CMS) {
+        CMS.init();
+      } else {
+        console.error("Decap CMS failed to load.");
+      }
+    });
   </script>
 </body>
 </html>

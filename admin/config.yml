@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: ITngTKSI/billing-status-dashboard
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "subscriptions"
+    label: "Subscriptions"
+    label_singular: "Subscription"
+    files:
+      - file: "subscriptions.json"
+        label: "Subscription List"
+        name: "subscription_list"
+        format: json
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Status", name: "status", widget: "select", options: ["Paid", "Unpaid"] }
+              - { label: "Due Date", name: "due_date", widget: "datetime", format: "YYYY-MM-DD" }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+              - { label: "Invoice URL", name: "invoice_url", widget: "string", required: false }
+              - { label: "Pay URL", name: "pay_url", widget: "string", required: false }

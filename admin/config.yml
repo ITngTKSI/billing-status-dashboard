@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ITngTKSI/billing-status-dashboard
   branch: main
-  base_url: https://decap.billing.tkservices.tech
+  base_url: https://cms.tkservices.tech
   client_id: Ov23liIdvG9n2yS7Xs4H
 
 media_folder: "uploads"

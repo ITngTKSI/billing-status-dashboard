@@ -3,9 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <title>Billing CMS</title>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
     <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js" defer></script>
   </head>
   <body>
     <div id="nc-root"></div>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        // Wait a tick to ensure CMS is loaded
+        setTimeout(() => {
+          if (window.CMS) {
+            CMS.init();
+          } else {
+            console.error("CMS failed to load.");
+          }
+        }, 100);
+      });
+    </script>
   </body>
 </html>

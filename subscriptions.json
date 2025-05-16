@@ -1,0 +1,250 @@
+[
+{
+        "name": "Google Workspace",
+        "status": "Paid",
+        "due_date": "2025-06-01",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/197Q1hTzJcst9drWD-c1aaufbMrdoozcd",
+        "pay_url": "https://admin.google.com/"
+      },
+      {
+        "name": "Digital Ocean",
+        "status": "Paid",
+        "due_date": "2025-06-15",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/11MT-vEM1s2IKB_2Pew7xepSPHDBRTXfn",
+        "pay_url": "https://cloud.digitalocean.com/"
+      },
+      {
+        "name": "ZeroSSL",
+        "status": "Paid",
+        "due_date": "2025-05-10",
+        "notes": "Annual subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/13p5wILez30nQPV9uO852UsgOHzcrijQU",
+        "pay_url": "https://app.zerossl.com/login?u=https%3A%2F%2Fapp.zerossl.com%2Fbilling"
+      },
+      {
+        "name": "SendGrid",
+        "status": "Paid",
+        "due_date": "2025-06-01",
+        "notes": "Montly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1EOZ2AVrz4GSiZiiVGqE6j3UCbz9DoYIM",
+        "pay_url": "https://app.zerossl.com/login?u=https%3A%2F%2Fapp.zerossl.com%2Fbilling"
+      },
+      {
+        "name": "Ngrok",
+        "status": "Paid",
+        "due_date": "2025-06-01",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1O0lEXokox_8StsnmqailYt9gZwP1Mhln",
+        "pay_url": "https://dashboard.ngrok.com/billing"
+      },
+      {
+        "name": "Freepik",
+        "status": "Paid",
+        "due_date": "2025-06-03",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1W-bO3UN2WDsub0JvxoYvc3iyEmD1ULED",
+        "pay_url": "https://www.freepik.com/log-in?client_id=freepik&lang=en"
+      },
+      {
+        "name": "Slack",
+        "status": "Paid",
+        "due_date": "2025-06-04",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1bCGdaNn_Ak2Ho7KeoCLk99FtYebYZz9p",
+        "pay_url": "https://tksiltd.slack.com/admin/billing"
+      },
+      {
+        "name": "Adobe",
+        "status": "Unpaid",
+        "due_date": "2025-06-05",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1MX4jrJVJ-_b4QB2qrqW1hc-bMsGupT0A",
+        "pay_url": "https://adminconsole.adobe.com/"
+      },
+      {
+        "name": "Ahrefs",
+        "status": "Paid",
+        "due_date": "2025-06-06",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/10k59FYzWRKE_PExIjqc11r1nz_3yuud-",
+        "pay_url": "https://app.ahrefs.com/user/login"
+      },
+      {
+        "name": "TestRail",
+        "status": "Paid",
+        "due_date": "2025-06-02",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/16hWznv-y9XlwdKVMfXopifSAwBZESL69",
+        "pay_url": "https://secure.testrail.com/customers/portal/subscriptions/"
+      },
+      {
+        "name": "Cloudflare",
+        "status": "Paid",
+        "due_date": "2025-06-08",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/16HvyiJXx8uGBKrgHVcrEBS2uvcnMNhp7",
+        "pay_url": "https://dash.cloudflare.com/737bf782e522edb20ae6f295af459bf5/billing"
+      },
+      {
+        "name": "BitWarden",
+        "status": "Paid",
+        "due_date": "2025-06-08",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1NdRrG1-8863CGGrplZ8foNH_5KkHF5GF",
+        "pay_url": "https://vault.bitwarden.com/"
+      },
+      {
+        "name": "Atlassian/JIRA & Confluence",
+        "status": "Unpaid",
+        "due_date": "2025-06-08",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1_y5KPvVmXBCQzWvhold1SeztiiIT8IC5",
+        "pay_url": "https://admin.atlassian.com/o/135j5769-0a4c-1863-jb03-20bd8244c8k7/billing-preview"
+      },
+      {
+        "name": "Bitbucket TKS",
+        "status": "Paid",
+        "due_date": "2025-06-08",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1tK8mdz4a3xzu9gU2rHYwu2TwEqfiBOwR",
+        "pay_url": "https://bitbucket.org/tkservices/workspace/settings/plans-and-billing"
+      },
+      {
+        "name": "Fingerprint",
+        "status": "Unpaid",
+        "due_date": "2025-06-09",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1vGuI1syd-Pnb6ygr9fbiEQeSphcS7RAx",
+        "pay_url": "https://dashboard.fingerprint.com/settings/billing"
+      },
+      {
+        "name": "Shutterstock",
+        "status": "Unpaid",
+        "due_date": "2025-06-13",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1ZOwGKahXfL4kix5oAsbZci5whC0jygre",
+        "pay_url": "https://www.shutterstock.com/account/billing"
+      },
+      {
+        "name": "Synthesia",
+        "status": "Paid",
+        "due_date": "2025-06-13",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1ngDLs7otHr7dyoT8OyX502DfiR0FmVDj",
+        "pay_url": "https://app.synthesia.io/#/welcome"
+      },
+      {
+        "name": "Comodo Itarian",
+        "status": "Paid",
+        "due_date": "2025-06-17",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1gf3nCkianMqP0f8FPXPX8jVVwhVpGdLY",
+        "pay_url": "https://us.itarian.com/app/#/management/applications/billing"
+      },
+      {
+        "name": "Microsoft 365",
+        "status": "Paid",
+        "due_date": "2025-06-17",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1lKm2u1RqohK58vh-6AJOB3zsEiH38USl",
+        "pay_url": "https://admin.microsoft.com/"
+      },
+      {
+        "name": "LiveChat Thailand",
+        "status": "Paid", 
+        "due_date": "2025-06-18",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1qUDXh2xkvm-RHKF1DN5VkBVKnK-445_1",
+        "pay_url": "https://my.livechatinc.com/"
+      },
+      {
+        "name": "Wynta",
+        "status": "Paid",
+        "due_date": "2025-06-22",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1v6CiOSaT7gJpDLLKbPq_h9TVvLTkjtK2",
+        "pay_url": "https://partners.khelrajaaffiliates.com/login/"
+      },
+      {
+        "name": "LiveChat India",
+        "status": "Paid",
+        "due_date": "2025-06-28",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1CtUPMNpaIcVZdWdfRtqHf6CQQQB2TccK",
+        "pay_url": "https://my.livechatinc.com/home"
+      },
+      {
+        "name": "Bitbucket TK Services",
+        "status": "Paid",
+        "due_date": "2025-06-28",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1VABIXgqYOks67w-qJ8y47XZmU5EO89AM",
+        "pay_url": "https://bitbucket.org/tkservicesterragon/workspace/settings/plans-and-billing"
+      },
+      {
+        "name": "AWS TK, Staging & Prd",
+        "status": "Paid",
+        "due_date": "2025-06-07",
+        "notes": "Monthly subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1yflnKLKiUyCnF8J8N_FPh-prhFK-aphf",
+        "pay_url": "https://us-east-1.console.aws.amazon.com/billing/home#/paymentsoverview"
+      },
+      {
+        "name": "Figma",
+        "status": "Paid",
+        "due_date": "2026-02-06",
+        "notes": "Annual & Quarterly",
+        "invoice_url": "https://drive.google.com/drive/folders/1sTrta9KG052p9-QHxfp24Ce9GyNB6TTj",
+        "pay_url": "https://www.figma.com/files/1209792340372972057/admin/billing?fuid=1156476452061533151"
+      },
+      {
+        "name": "Screaming Frog",
+        "status": "Paid",
+        "due_date": "2026-02-06",
+        "notes": "Annual Subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1NvOJXsLl-D--RtbTG5gsfRCTbrq-H5dQ",
+        "pay_url": "https://www.screamingfrog.co.uk/"
+      },
+      {
+        "name": "Teamviewer",
+        "status": "Paid",
+        "due_date": "2025-10-19",
+        "notes": "Annual Subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1_rbp163fVIhUz_lai32HGvcBvgrpVWGw",
+        "pay_url": "https://login.teamviewer.com/LogOn"
+      },
+      {
+        "name": "Hostinger",
+        "status": "Paid",
+        "due_date": "2026-04-25",
+        "notes": "Annual Subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1lq1J7SsycAT8Tbw5Z3fCBlhWNyFY3YNi",
+        "pay_url": "http://hostinger.com"
+      },
+      {
+        "name": "Envato",
+        "status": "Paid",
+        "due_date": "2026-04-25",
+        "notes": "Annual Subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1kCbrIynPq1rJkR8Nnzhv_CjnkLC1KvSu",
+        "pay_url": "https://elements.envato.com/sign-in"
+      },
+      {
+        "name": "IPQuality",
+        "status": "Unpaid",
+        "due_date": "2025-06-30",
+        "notes": "Annual Subsription",
+        "invoice_url": "https://drive.google.com/drive/folders/1fItl35JwV6cXLNzuL9cWvQgMMgx3rNDI",
+        "pay_url": "https://www.ipqualityscore.com/login"
+      },
+      {
+        "name": "Xtremepush",
+        "status": "Unpaid",
+        "due_date": "2025-06-13",
+        "notes": "Monthly Subscription",
+        "invoice_url": "https://drive.google.com/drive/folders/1rDU2KGFV6xXth_e8v7nmSwLL5lZqlk_E",
+        "pay_url": "https://dashboard.xtremepush.com/"
+      }
+]

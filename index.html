@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Billing Status Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-6">
+  <div class="max-w-7xl mx-auto">
+    <h1 class="text-3xl font-bold mb-6 text-orange-600">📊 Billing Status Dashboard</h1>
+    <div class="overflow-x-auto">
+      <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+        <thead class="bg-[#A2413E] text-white">
+          <tr>
+            <th class="px-4 py-2 text-left">Subscription</th>
+            <th class="px-4 py-2 text-left">Status</th>
+            <th class="px-4 py-2 text-left">Due Date</th>
+            <th class="px-4 py-2 text-left">Notes</th>
+            <th class="px-4 py-2 text-left">Invoice</th>
+            <th class="px-4 py-2 text-left">Pay Here</th>
+          </tr>
+        </thead>
+        <tbody id="subscriptions-table" class="divide-y divide-gray-200"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    fetch('subscriptions.json')
+      .then(response => response.json())
+      .then(subscriptions => {
+    const table = document.getElementById("subscriptions-table");
+
+    subscriptions.forEach(item => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td class="px-4 py-2">${item.name}</td>
+        <td class="px-4 py-2">
+          <span class="px-2 py-1 rounded text-white ${item.status === 'Paid' ? 'bg-green-500' : 'bg-red-500'}">
+            ${item.status}
+          </span>
+        </td>
+        <td class="px-4 py-2">${item.due_date}</td>
+        <td class="px-4 py-2">${item.notes}</td>
+        <td class="px-4 py-2">
+          ${item.invoice_url ? `<a href="${item.invoice_url}" target="_blank" class="text-blue-600 underline">View</a>` : '—'}
+        </td>
+        <td class="px-4 py-2">
+          ${item.pay_url ? `<a href="${item.pay_url}" target="_blank" class="inline-block bg-blue-600 text-white text-sm px-3 py-1 rounded hover:bg-blue-700 transition">💳 Pay</a>` : '—'}
+        </td>
+
+      `;
+      table.appendChild(row);
+    });
+  </script>
+</body>
+</html>
